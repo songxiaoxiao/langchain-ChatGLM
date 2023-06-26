@@ -5,6 +5,8 @@ from langchain.document_loaders.unstructured import UnstructuredFileLoader
 from paddleocr import PaddleOCR
 import os
 import nltk
+import sys      # 添加这行
+sys.path.append("/content/drive/MyDrive/langchain-ChatGLM/")   # 添加这行
 from configs.model_config import NLTK_DATA_PATH
 
 nltk.data.path = [NLTK_DATA_PATH] + nltk.data.path
