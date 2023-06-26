@@ -306,7 +306,7 @@ block_css = """.importantButton {
 
 webui_title = """
 # 🎉智脑🎉
-👍 [http://chat.ichasem.tech/](http://chat.ichasem.tech/)
+👍 [http://c.creativebooster.com/](智脑)
 """
 default_vs = get_vs_list()[0] if len(get_vs_list()) > 1 else "为空"
 init_message = f"""欢迎使用 智脑 Web UI！
